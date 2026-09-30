@@ -1,7 +1,7 @@
 const http = require("http");
 const server = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Hello! My Node.js server is working. Git push practice.");
+    res.end("Hello! This change came from GitHub.");
 });
 server.listen(3000, () => {
     console.log("Server running at http://localhost:3000");
